@@ -1,0 +1,182 @@
+input, button {
+  all: unset;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F8EFEF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Mulish', sans-serif;
+
+  padding: 50px 0px 50px 0px;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #FFFFFF;
+
+  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  padding: 64px 90px 56px 90px;
+  width: 610px;
+}
+
+.container__tittle {
+  color: #161843;
+
+  font-family: 'Rokkitt', serif;  
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+
+  margin-bottom: 15px;
+}
+
+.container__paragraph {
+  color: #161843;
+
+  font-size: 16px;
+  line-height: 23px;
+
+  width: 339px;
+  margin-bottom: 52px;
+}
+
+.container__input {
+  color: #717A90;
+
+  border: 1px solid #CAD6E4;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  margin-bottom: 16px;
+  padding: 25px;
+}
+
+.container__input:focus {
+  color: #343945;
+
+  border-color: #26394F;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #CAD6E4;
+
+  margin-bottom: 83px;
+  padding-bottom: 55px;
+}
+
+.login__forgot {
+  color: #0C6787;
+
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.login__button {
+  background-color: #046586;
+  color: #FFFFFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+
+  width: 157px;
+  height: 73px;
+
+  cursor: pointer;
+}
+
+.login__button__text {
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+
+  margin-right: 14px;
+}
+
+.orLogin {
+  display: flex;
+  flex-direction: column;
+}
+
+.orLogin__tittle {
+  color: #838A9E;
+
+  text-align: center;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  margin-bottom: 30px;
+}
+
+.orLogin__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 60px;
+}
+
+.button--facebook, .button--google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #CAD6E4;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  width: 207px;
+  height: 55px;
+
+  cursor: pointer;
+}
+
+.button--facebook:hover, .button--google:hover {
+  border-color: #26394F;
+}
+
+.orLogin__button__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  margin-left: 11px;
+}
+
+.container__span {
+  text-align: center;
+
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.container__span__link {
+  color: #046586;
+}

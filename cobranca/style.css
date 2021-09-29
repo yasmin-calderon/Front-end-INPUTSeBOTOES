@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  padding: 50px;
+
+  background-color: #9AA6CF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  background: #FFFFFF;
+  box-shadow: 0px 34px 44px rgba(160, 181, 255, 0.28);
+  border-radius: 10px;
+
+  width: 693px;
+  height: 794px;
+  padding: 70px 51px 50px 51px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.container h1 {
+  width: 256px;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  width: 405px;
+  height: 62px;
+
+  margin-bottom: 40px;
+}
+
+.container .intro h1 {
+  font-size: 22px;
+  line-height: 30px;
+  text-align:left;
+
+  margin-bottom: 10px;
+}
+
+.container .intro p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  all:unset;
+  box-sizing: border-box;
+
+  border: 1px solid #CED5EC;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  padding: 26px 25px;
+  width: 591px;
+  margin-bottom: 20px;
+}
+
+.input-container input:focus {
+  border-color: #5F82FF;
+}
+
+.input-container input::placeholder {
+  all:unset;
+
+  color:#000000;
+}
+
+.row {
+  display: flex;
+}
+
+.container .row input {
+  width: 288px;
+  margin-bottom: 50px;
+  margin-right: 15px;
+}
+
+.center p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+
+  width: 533px;
+  margin-bottom: 27px;
+}
+
+.container button {
+  all:unset;
+
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #5F82FF;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 45px 250px;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #093DF3;
+}

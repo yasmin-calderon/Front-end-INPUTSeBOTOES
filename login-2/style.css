@@ -1,0 +1,161 @@
+input, button, input::placeholder {
+  all: unset;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1F1C44;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  padding: 50px 0px;
+}
+
+.container {
+  background-color: #FFFFFF;
+
+  font-family: 'Neuton', serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 10px;
+
+  padding: 60px 90px 50px 90px;
+}
+
+.container__tittle {
+  font-size: 28px;
+  line-height: 35px;
+
+  margin-bottom: 54px;
+}
+
+.container__button__1 {
+  background-color: #5B86E6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+
+  margin-bottom: 55px;
+  width: 337px;
+  height: 69px;
+
+  cursor: pointer;
+}
+
+.container__button__1:focus {
+  box-shadow: 0px 4px 13px rgba(19, 69, 178, 0.3);
+}
+
+.button__text {
+  color: #FFFFFF;
+
+  font-size: 18px;
+  line-height: 23px;
+
+  margin-right: 5px;
+}
+
+.button__img {
+  background-color: #FFFFFF;
+
+  border-radius: 4px;
+
+  padding: 11px;
+  width: 55px;
+}
+
+.container__sub {
+  color: #949495;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  margin-bottom: 39px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__label {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin-bottom: 4px;
+}
+
+.input__input {
+  border: 1px solid #D9DCED;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+
+  margin-bottom: 20px;
+  padding: 25px 22px;
+  width: 337px;
+}
+
+.input__input:focus {
+  border-color: #000000;
+}
+
+.input__input::placeholder {
+  color: #949495;
+}
+
+.container__button__2 {
+  color: #FFFFFF;
+  background: #E65B7C;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
+  line-height: 28px;
+
+  border-radius: 5px;
+
+  margin: 5px 0px 75px 0px;
+  width: 337px;
+  height: 69px;
+
+  cursor: pointer;
+}
+
+.container__button__2:focus {
+  box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
+}
+
+.container__text {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.container__text a {
+  color: #5B86E6;
+
+  text-decoration: none;
+}
